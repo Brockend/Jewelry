@@ -1,0 +1,13 @@
+.footer{
+    background: #EFEBE8;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__text{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 20px;
+        text-align: center;
+    }
+}
