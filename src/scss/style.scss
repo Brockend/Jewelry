@@ -23,15 +23,127 @@ html{
     scroll-behavior: smooth;
 }
 
+html,body {
+    height: 100%;
+}
 .container {
     //max-width: 1140px;
     padding: 0 100px;
     margin: 0 auto;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+
+// .item_section{
+//     overflow: hidden;
+//     width: 100%;
+//     display: flex;
+// }
+
+// .item_photo{
+//     padding-left: 5%;
+//     padding-top:10%;
+//     transition: all 0.5s;
+//     object-fit: cover;
+
+//     &:hover{
+//         transform: scale(1.1);
+//     }
+// }
+
+// .item_description{
+//     padding-left: 25%;
+//     padding-top: 30px;
+// }
+
+// .back_to_categories{
+//     width: 150px;
+//     height: 31px;
+//     left: 11px;
+//     color:#515151 ;
+//     font-size: small;
+// }
+
+// .items__title{
+//     position:left;
+//     padding-bottom: 15px;
+//     font-size:xx-large;
+// }
+
+// .info_items{
+//     padding: 40px 10px 40px 0;
+// }
+
+// .into_basket{
+//     box-sizing: border-box;
+
+    
+//     width: 129px;
+//     height: 41px;
+//     left: 16px;
+//     top: 322px;
+
+//     background: rgba(170, 123, 97, 0.84);
+//     border: 1px solid rgba(170, 123, 97, 0.84);
+   
+    
+// }
+
+// .into_basket>p{
+    
+//     width: 72px;
+//     height: 18px;
+//     left: 28px;
+//     top: 10px;
+//     margin-top: 10px;
+//     margin-left :25px;
+//     font-family: 'Karla';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 21px;
+//     text-align: center;
+//     color: #FFFFFF;
+// }
+
+// .item_details
+// {
+//     padding-top: 40px;
+    
+//     border-bottom: 1px #B7B7B7 solid;
+//     width: 75%;
+    
+// }
+
+// .details_text{
+//     display: inline-block; 
+//     padding-top: 10px;
+// }
+// .details_arrow{
+//     display: inline-block;
+//     float:right;
+
+//     box-sizing: border-box;
+   
+// }
+
+
+
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/categories';
 @import 'blocks/footer';
+@import 'blocks/goods';
+@import 'blocks/item-details';
+
 
 @import 'base/media';

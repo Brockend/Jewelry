@@ -1,6 +1,8 @@
 //Big laptop
 @media(max-width: 1440px){
-
+    .item-details{
+        grid-template-columns: 460px 600px;
+    }
 }
 
 @media(max-width: 1200px){
@@ -9,6 +11,7 @@
     }
     .promo{
         padding: 0;
+        padding-bottom: 30px;
         &__title{
             padding-top: 100px;
             font-size: 45px;
@@ -23,6 +26,9 @@
             font-size: 16px;
             padding: 10px 18px;
         }
+    }
+    .item-details{
+        grid-template-columns: 350px 500px;
     }
 }
 
@@ -40,6 +46,11 @@
     .promo{
         //background-size: contain;
     }
+
+    .item-details{
+        grid-template-columns: 343px 348px;
+        column-gap: 50px;
+    }
 }
 
 //Tablet
@@ -52,6 +63,19 @@
 
         &__title{
             font-size: 36px;
+        }
+    }
+
+    .item-details{
+        padding: 30px 10px 30px 10px;
+        grid-template-columns: 550px;
+        grid-template-rows: 320px auto;
+
+        &__photo {
+            img{
+                height: 100%;
+                object-fit: contain;
+            }
         }
     }
 }
@@ -72,7 +96,7 @@
         }
     }
     .promo{
-        background-position: top right -200px;
+        background-position: top right -400px;
         &::before{
             content: '';
             display: block;
@@ -104,5 +128,8 @@
             z-index: 2;
         }
 
+    }
+    .item-details{
+        grid-template-columns: 300px;
     }
 }

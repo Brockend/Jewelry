@@ -5,6 +5,8 @@
     align-items: center;
     min-height: 83px;
     padding: 0 50px;
+    border-top: 1px solid #705B4F;
+    border-bottom: 1px solid #705B4F;
 
     &__wrapper{
         display: flex;
@@ -54,7 +56,6 @@
         line-height: 33px;
         color: #000000;
         text-transform: uppercase;
-        transform: translate(-20%);
         letter-spacing: 10px;
         a{
             color: inherit;
